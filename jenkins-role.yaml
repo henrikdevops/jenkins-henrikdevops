@@ -12,4 +12,4 @@ rules:
   verbs: ["delete"]
 - apiGroups: ["apps"]
   resources: ["deployments"]
-  verbs: ["delete", "create", "patch"]
+  verbs: ["delete", "list", "delete", "create", "patch"]
