@@ -29,7 +29,7 @@ spec:
       volumes:
       - name: jenkins-home
         persistentVolumeClaim:
-          claimName: jenkins-pvc
+          claimName: henrikdevops-jenkins-pvc
 
 
 
